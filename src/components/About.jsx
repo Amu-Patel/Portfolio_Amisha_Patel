@@ -2,7 +2,9 @@ export default function About() {
   return (
     <section id="about" className="py-12 px-4">
       <div>
-        <h2 className="text-2xl font-bold mb-4">About Me</h2>
+        <h2 className="text-3xl font-bold mb-6 border-b-4 border-blue-500 inline-block">
+        About
+        </h2>
         <p className="text-base mb-4">
           I am a Front-end Developer and Data Analyst from Rewa, Madhya Pradesh. I specialize in turning complex problems into
           simple, beautiful, and intuitive designs. With a passion for both coding and data analysis, I excel in creating engaging
@@ -18,7 +20,9 @@ export default function About() {
       </div>
 
       <div>
-        <h2 className="text-2xl font-bold mb-6">What I Done!</h2>
+        <h2 className="text-3xl font-bold mb-6 border-b-4 border-blue-500 inline-block">
+        What I Done!
+        </h2>
 
         <div className="grid md:grid-cols-2 gap-6">
           <div className="bg-green-300 flex gap-4 p-4 rounded-lg" >

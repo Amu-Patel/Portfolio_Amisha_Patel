@@ -3,8 +3,10 @@ export default function Resume() {
   return (
     <section className="bg-[#98E4FF] p-6 rounded-xl mb-8 grid grid-cols-1 md:grid-cols-2 gap-8 text-black">
       {/* LEFT COLUMN */}
-      <div className="text-black">
-        <h2 className="text-2xl font-bold mb-4 text-white">Resume</h2>
+      <div>
+        <h2 className="text-3xl font-bold mb-6 border-b-4 border-blue-500 inline-block">
+        Resume
+        </h2>
 
         <h3 className="font-semibold mb-2">Education</h3>
         <div className="bg-gradient-to-r from-pink-400 to-yellow-400 p-4 rounded mb-4 text-xs">
