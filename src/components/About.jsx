@@ -26,7 +26,7 @@ export default function About() {
 
         <div className="grid md:grid-cols-2 gap-6">
           <div className="bg-green-300 flex gap-4 p-4 rounded-lg" >
-            <img src="/icons/front-end-developer.png" alt="Front-end Developer" className="w-16 h-16" />
+            <img src="./icons/front-end-developer.png" alt="Front-end Developer" className="w-16 h-16" />
             <div>
               <h4 className="text-lg font-bold mb-1">Front-end Developer</h4>
               <p className="text-sm">
@@ -37,7 +37,7 @@ export default function About() {
           </div>
 
           <div className="bg-pink-300 flex gap-4 p-4 rounded-lg" >
-            <img src="/icons/analyst.png" alt="Data Analyst" className="w-16 h-16" />
+            <img src="./icons/analyst.png" alt="Data Analyst" className="w-16 h-16" />
             <div>
               <h4 className="text-lg font-bold mb-1">Data Analyst</h4>
               <p className="text-sm">
@@ -48,7 +48,7 @@ export default function About() {
           </div>
 
           <div className="bg-purple-300 flex gap-4 p-4 rounded-lg" >
-            <img src="/icons/ruler.png" alt="Graphic Designer" className="w-16 h-16" />
+            <img src="./icons/ruler.png" alt="Graphic Designer" className="w-16 h-16" />
             <div>
               <h4 className="text-lg font-bold mb-1">Graphic Designer</h4>
               <p className="text-sm">
@@ -59,7 +59,7 @@ export default function About() {
           </div>
 
           <div className="bg-yellow-300 flex gap-4 p-4 rounded-lg">
-            <img src="/icons/globalization.png" alt="Digital Marketing" className="w-16 h-16" />
+            <img src="./icons/globalization.png" alt="Digital Marketing" className="w-16 h-16" />
             <div>
               <h4 className="text-lg font-bold mb-1">Digital Marketing</h4>
               <p className="text-sm">
