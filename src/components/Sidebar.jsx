@@ -2,7 +2,7 @@ export default function Sidebar() {
   return (
     <aside className="bg-primary rounded-2xl shadow-lg p-6 w-full md:w-72 flex flex-col items-center">
       <img 
-        src="/profile/PASSPORT PHOTO.jpg" 
+        src="./profile/PASSPORT PHOTO.jpg" 
         alt="Amisha Patel" 
         className="w-32 h-32 object-cover mb-4" 
       />
