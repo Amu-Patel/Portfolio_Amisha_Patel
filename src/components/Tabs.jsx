@@ -24,5 +24,3 @@ export default function Tabs({ active, setActive }) {
     </div>
   );
 }
-
-
