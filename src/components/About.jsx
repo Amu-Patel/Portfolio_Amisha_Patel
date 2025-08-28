@@ -21,7 +21,7 @@ export default function About() {
 
       <div>
         <h2 className="text-3xl font-bold mb-6 border-b-4 border-blue-500 inline-block">
-        What I Done!
+        What I have Done!
         </h2>
 
         <div className="grid md:grid-cols-2 gap-6">

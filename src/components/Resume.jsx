@@ -1,7 +1,7 @@
 import Skill from "./skills";
 export default function Resume() {
   return (
-    <section className="bg-[#98E4FF] p-6 rounded-xl mb-8 grid grid-cols-1 md:grid-cols-2 gap-8 text-black">
+    <section className="bg-primary/30 backdrop-blur-sm p-6 rounded-xl mb-8 grid grid-cols-1 md:grid-cols-2 gap-8 text-black">
       {/* LEFT COLUMN */}
       <div>
         <h2 className="text-3xl font-bold mb-6 border-b-4 border-blue-500 inline-block">
@@ -69,6 +69,8 @@ export default function Resume() {
         <div className="flex flex-wrap gap-2">
           <Tag name="Front-end Development" />
           <Tag name="Data Analysis" />
+          <Tag name="PostgreSql" />
+          <Tag name="Docker" />
           <Tag name="Communication" />
           <Tag name="Time Management" />
           <Tag name="Flexibility" />

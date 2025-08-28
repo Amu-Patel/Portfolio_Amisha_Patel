@@ -7,7 +7,7 @@ export default function Tabs({ active, setActive }) {
   ];
 
   return (
-    <div className="bg-primary rounded-full shadow-md flex gap-4 px-4 py-2 ml-8 ">
+    <div className="bg-primary/30 backdrop-blur-sm rounded-full shadow-md flex gap-4 px-4 py-2 ml-8 ">
       {tabs.map((tab) => (
         <button
           key={tab.name}

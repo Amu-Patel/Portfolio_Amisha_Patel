@@ -1,13 +1,13 @@
 export default function Sidebar() {
   return (
-    <aside className="bg-primary rounded-2xl shadow-lg p-6 w-full md:w-72 flex flex-col items-center sticky top-4">
+    <aside className="bg-primary/30 backdrop-blur-sm rounded-2xl shadow-lg p-6 w-full md:w-72 flex flex-col items-center sticky top-4">
       <img 
-        src="./profile/passport-photo.jpg"
+        src="./profile/passport-photo-1.jpg"
         alt="Amisha Patel" 
-        className="w-32 h-32 object-cover mb-4" 
+        className="w-35 h-35 object-cover mb-4 rounded-2xl" 
       />
       <h2 className="text-2xl font-bold mb-1">Amisha Patel</h2>
-      <p className="text-xl text-gray-500 mb-4">Front-end Developer</p>
+      <p className="text-xl text-gray-200 mb-4">Front-end Developer</p>
 
       {/* Social */}
       <div className="flex gap-4 mb-4 text-xl text-gray-700">
