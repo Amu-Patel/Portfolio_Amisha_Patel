@@ -7,7 +7,7 @@ export default function Tabs({ active, setActive }) {
   ];
 
   return (
-    <div className="bg-primary/30 backdrop-blur-sm rounded-full shadow-md flex gap-4 px-4 py-2 ml-8 ">
+    <div className="bg-primary/30 backdrop-blur-sm rounded-full shadow-md flex gap-4 px-4 py-2 md:ml-8 justify-center md:justify-start">
       {tabs.map((tab) => (
         <button
           key={tab.name}
@@ -18,7 +18,12 @@ export default function Tabs({ active, setActive }) {
               : "bg-gray-100"
           }`}
         >
-          <i className={`${tab.icon} text-lg`}></i> {tab.name.charAt(0).toUpperCase() + tab.name.slice(1)}
+          <i className={`${tab.icon} text-lg`}></i>
+          
+          {/* Show text only on md+ screens */}
+          <span className="hidden md:inline">
+            {tab.name.charAt(0).toUpperCase() + tab.name.slice(1)}
+          </span>
         </button>
       ))}
     </div>
