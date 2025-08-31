@@ -2,7 +2,7 @@ import Skill from "./skills";
 export default function Resume() {
   return (
     <section className="bg-primary/30 backdrop-blur-sm p-6 rounded-xl mb-8 grid grid-cols-1 md:grid-cols-2 gap-8 text-black">
-      {/* LEFT COLUMN */}
+      /* LEFT COLUMN */
       <div>
         <h2 className="text-3xl font-bold mb-6 border-b-4 border-blue-500 inline-block">
         Resume
@@ -38,7 +38,7 @@ export default function Resume() {
         </div>
       </div>
 
-      {/* RIGHT COLUMN */}
+      /* RIGHT COLUMN */
       <div>
         <h3 className="font-semibold mb-2">Experience</h3>
         <div className="bg-gradient-to-r from-yellow-500 to-orange-500 p-4 rounded mb-4 text-xs">

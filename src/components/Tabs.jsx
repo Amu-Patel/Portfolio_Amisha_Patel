@@ -20,7 +20,7 @@ export default function Tabs({ active, setActive }) {
         >
           <i className={`${tab.icon} text-lg`}></i>
           
-          {/* Show text only on md+ screens */}
+          
           <span className="hidden md:inline">
             {tab.name.charAt(0).toUpperCase() + tab.name.slice(1)}
           </span>

@@ -6,7 +6,7 @@ export default function Skill({ name, percent, icon }) {
   useEffect(() => {
     const timeout = setTimeout(() => {
       setWidth(percent);
-    }, 300); // delay to let component render before animating
+    }, 300); 
 
     return () => clearTimeout(timeout);
   }, [percent]);

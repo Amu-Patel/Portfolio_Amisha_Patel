@@ -7,7 +7,7 @@ export default function Sidebar() {
         className="w-35 h-35 object-cover mb-4 rounded-2xl" 
       />
       <h2 className="text-2xl font-bold mb-1">Amisha Patel</h2>
-      <p className="text-xl text-gray-200 mb-4">Front-end Developer</p>
+      <p className="text-xl text-gray-400 mb-4">Front-end Developer</p>
 
       {/* Social */}
       <div className="flex gap-4 mb-4 text-xl text-gray-700">
@@ -41,7 +41,7 @@ export default function Sidebar() {
         </div>
       </div>
 
-      {/* Contact Box */}
+      /* Contact Box */
       <div className="bg-gray-200 rounded-xl p-4 w-full text-left space-y-2 text-sm shadow-md">
         <p className="flex items-center gap-2">
           <i className="bx bx-envelope"></i> amishaatel@gmail.com

@@ -89,7 +89,7 @@ export default function Works() {
         Portfolio
       </h2>
 
-      {/* Nav */}
+      
       <ul className="flex gap-6 mb-8 text-sm font-medium">
         {["All", "Web Designing", "Graphic Design"].map((cat) => (
           <li
